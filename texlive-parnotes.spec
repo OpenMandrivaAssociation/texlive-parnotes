@@ -46,3 +46,11 @@ paragraph, or manually, using the \parnotes command.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-1
++ Revision: 758996
+- texlive-parnotes
+- texlive-parnotes
+
