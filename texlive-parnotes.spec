@@ -6,7 +6,7 @@
 # catalog-version 1
 Name:		texlive-parnotes
 Version:	1
-Release:	5
+Release:	6
 Summary:	Notes after every paragraph (or elsewhere)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parnotes
