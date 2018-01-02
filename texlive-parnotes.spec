@@ -1,12 +1,6 @@
-# revision 25032
-# category Package
-# catalog-ctan /macros/latex/contrib/parnotes
-# catalog-date 2012-01-05 00:06:09 +0100
-# catalog-license lppl1.3
-# catalog-version 1
 Name:		texlive-parnotes
-Version:	1
-Release:	9
+Version:	3
+Release:	1
 Summary:	Notes after every paragraph (or elsewhere)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parnotes
@@ -33,9 +27,8 @@ paragraph, or manually, using the \parnotes command.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/parnotes/parnotes.sty
-%doc %{_texmfdistdir}/doc/latex/parnotes/README
-%doc %{_texmfdistdir}/doc/latex/parnotes/README.TEXLIVE
+%{_texmfdistdir}/tex/latex/parnotes
+%doc %{_texmfdistdir}/doc/latex/parnotes
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,11 +39,3 @@ paragraph, or manually, using the \parnotes command.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-1
-+ Revision: 758996
-- texlive-parnotes
-- texlive-parnotes
-
