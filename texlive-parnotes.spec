@@ -1,6 +1,6 @@
 Name:		texlive-parnotes
 Version:	3
-Release:	1
+Release:	2
 Summary:	Notes after every paragraph (or elsewhere)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parnotes
