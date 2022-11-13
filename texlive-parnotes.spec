@@ -1,12 +1,12 @@
 Name:		texlive-parnotes
-Version:	3
-Release:	3
+Version:	51720
+Release:	1
 Summary:	Notes after every paragraph (or elsewhere)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parnotes
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parnotes.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parnotes.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parnotes.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parnotes.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -18,12 +18,12 @@ The package provides the \parnote command. The notes are set as
 paragraph, or manually, using the \parnotes command.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -32,7 +32,7 @@ paragraph, or manually, using the \parnotes command.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
