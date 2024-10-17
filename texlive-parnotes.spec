@@ -3,7 +3,7 @@ Version:	71505
 Release:	1
 Summary:	Notes after every paragraph (or elsewhere)
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parnotes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/parnotes
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parnotes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parnotes.doc.r%{version}.tar.xz
